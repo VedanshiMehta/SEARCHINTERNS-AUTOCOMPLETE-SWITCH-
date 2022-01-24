@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="INTERNS"
+        android:textColor="@color/my_blue"
+        android:textStyle="bold|italic"
+        android:textSize="24dp"/>
+
+    <AutoCompleteTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myauto"
+        android:textColor="@color/my_red"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="403.5dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attentive"
+            android:id="@+id/attentive"
+            android:textColor="@color/my_blue"
+            android:checked="false"
+            android:textOn="YES"
+            android:textOff="NO"
+            android:layout_marginTop="10dp"/>
+
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Presentative"
+            android:id="@+id/presentative"
+            android:textOn="YES"
+            android:textOff="NO"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/my_blue"
+            android:trackTint="@color/my_red"
+            android:thumbTint="@color/my_purple"
+            android:checked="false"/>
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fast"
+            android:textOn="YES"
+            android:textOff="NO"
+            android:id="@+id/fast"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/my_blue"
+            android:trackTint="@color/my_red"
+            android:checked="false"/>
+    </LinearLayout>
+
+</LinearLayout>
